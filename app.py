@@ -21,6 +21,10 @@ import time
 import numpy as np
 import base64
 import openai
+import imageio_ffmpeg as ffmpeg
+
+# Set the FFmpeg path for pydub
+AudioSegment.converter = ffmpeg.get_ffmpeg_exe()
 
 
 # Set OpenAI API key
