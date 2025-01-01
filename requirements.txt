@@ -13,3 +13,4 @@ plotly
 streamlit-webrtc
 streamlit-audiorec
 av
+imageio[ffmpeg]
