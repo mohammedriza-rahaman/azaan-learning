@@ -47,7 +47,7 @@ speech_client = speech.SpeechClient(credentials=credentials)
 processor = Wav2Vec2Processor.from_pretrained("models/wav2vec2-base")
 model = Wav2Vec2Model.from_pretrained("models/wav2vec2-base")
 
-ideal_embedding = torch.tensor(np.load(r"embeddings\ideal_embedding_part_1.npy"))
+ideal_embedding = torch.tensor(np.load("embeddings/ideal_embedding_part_1.npy"))
 
 
 # Define ideal text
