@@ -299,7 +299,7 @@ def add_waveform_to_app():
             return
             
         # Process expert's audio
-        expert_audio_path = r"audio_files\qari_part_1.mp3"
+        expert_audio_path = r"audio_files/qari_part_1.mp3"
         expert_waveform = process_audio_for_visualization(expert_audio_path)
         if not expert_waveform:
             st.error("Could not process expert audio for visualization")
@@ -792,7 +792,7 @@ def transcribe_and_validate(audio_file_path, ideal_text):
             similarity_score = calculate_similarity(user_embedding, ideal_embedding)
             
             # Get detailed audio analysis
-            reference_path=r"audio_files\qari_part_1.mp3"
+            reference_path=r"audio_files/qari_part_1.mp3"
             word_analysis = analyze_audio_features(
                 audio_file_path,
                 reference_path # reference audio
