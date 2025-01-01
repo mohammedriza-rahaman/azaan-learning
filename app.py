@@ -714,7 +714,7 @@ def record_audio_with_progress():
 #             # Get detailed audio analysis
 #             word_analysis = analyze_audio_features(
 #                 audio_file_path,
-#                 "audio/qari_part_1.mp3"  # reference audio
+#                 "audio_files\\qari_part_1.mp3"  # reference audio
 #             )
             
 #             # Generate comprehensive feedback using both analysis and LLM
@@ -795,7 +795,7 @@ def transcribe_and_validate(audio_file_path, ideal_text):
             # Get detailed audio analysis
             word_analysis = analyze_audio_features(
                 audio_file_path,
-                "audio_files\qari_part_1.mp3"  # reference audio
+                "audio_files\\qari_part_1.mp3"  # reference audio
             )
             
             # Generate comprehensive feedback using both analysis and LLM
@@ -1053,7 +1053,7 @@ def main():
             <h2 class="card-title">Reference Audio</h2>
         </div>
     """, unsafe_allow_html=True)
-    st.audio("audio_files\qari_part_1.mp33")
+    st.audio("audio_files\\qari_part_1.mp3")
     st.markdown("</div>", unsafe_allow_html=True)
 
     # Initialize session state
