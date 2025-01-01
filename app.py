@@ -792,9 +792,10 @@ def transcribe_and_validate(audio_file_path, ideal_text):
             similarity_score = calculate_similarity(user_embedding, ideal_embedding)
             
             # Get detailed audio analysis
+            reference_path=r"audio_files\qari_part_1.mp3"
             word_analysis = analyze_audio_features(
                 audio_file_path,
-                "audio_files\\qari_part_1.mp3"  # reference audio
+                reference_path # reference audio
             )
             
             # Generate comprehensive feedback using both analysis and LLM
