@@ -9,7 +9,6 @@ import numpy as np
 from transformers import Wav2Vec2Processor
 from transformers.models.wav2vec2 import Wav2Vec2Model
 import librosa
-from groq import Groq
 from st_audiorec import st_audiorec
 import scipy.io.wavfile as wav
 import os
