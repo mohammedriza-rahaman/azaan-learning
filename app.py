@@ -1052,7 +1052,7 @@ def main():
             <h2 class="card-title">Reference Audio</h2>
         </div>
     """, unsafe_allow_html=True)
-    st.audio("audio_files\\qari_part_1.mp3")
+    st.audio(r"audio_files\qari_part_1.mp3")
     st.markdown("</div>", unsafe_allow_html=True)
 
     # Initialize session state
