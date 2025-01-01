@@ -1,0 +1,17 @@
+streamlit
+google-auth
+google-cloud-speech
+torch
+transformers
+numpy
+librosa
+groq
+pyaudio
+python-sounddevice
+scipy
+pydub
+openai
+plotly
+streamlit-webrtc
+streamlit-audiorec
+av
