@@ -8,6 +8,7 @@ numpy
 librosa
 scipy
 pydub
+sounddevice
 openai==0.28
 plotly
 streamlit-webrtc
