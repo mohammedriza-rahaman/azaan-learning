@@ -11,7 +11,5 @@ pydub
 sounddevice
 openai==0.28
 plotly
-streamlit-webrtc
-streamlit-audiorec
 av
 imageio[ffmpeg]
